@@ -145,6 +145,11 @@ body {
 .about__content {
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .about__btn {
@@ -160,15 +165,15 @@ body {
 }
 
 .about__title {
-  font-size: 1.875rem;
+  font-size: 1.25rem;
   color: #fff;
-  line-height: 1.875;
+  line-height: 1.5;
   /* font-weight: 600; */
-  max-width: 60ch;
+  /* max-width: 60ch; */
 }
 
 .about__title2 {
-  font-size: 1.25rem;
+  font-size: 8.25rem;
   color: rgb(184, 174, 174);
   padding-top: 0.5rem;
 }
